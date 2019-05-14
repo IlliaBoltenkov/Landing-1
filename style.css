@@ -172,7 +172,7 @@
     justify-content: flex-start; 
     position: absolute;
     z-index: -1;
-    padding-left: 65px;
+    padding-left: 120px;
     margin-top: 50px;
 }
 .picture_graphic{
@@ -209,6 +209,47 @@
 .graphical_WievMore{
     margin-top: 30px;
 }
-
-
+.contentBody_manage{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.manage{
+    margin-left: 50px;
+}
+.manage_elipse{
+    width: 92%;
+    display: flex;
+    justify-content: center; 
+    position: absolute;
+    z-index: -1;
+    padding-left: 120px;
+    margin-top: 50px;
+}
+.manage p {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #282D32;
+}
+.manage h2{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+    color: #076572;
+}
+.manage_WievMore{
+    padding-top: 150px;
+}
+.manage_wallet{
+    padding-top: 30px;
+}
 
